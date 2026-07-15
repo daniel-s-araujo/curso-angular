@@ -27,4 +27,8 @@ export class EditarProdutoComponent implements OnInit {
   change() {
     alert('change');
   }
+
+  get debug() {
+    return JSON.stringify(this.produto);
+  }
 }
